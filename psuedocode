@@ -1,0 +1,45 @@
+#Doing Laundry
+
+ 
+
+START
+
+ 
+
+spinCount = 0
+
+loadClothes()
+
+for i in range 6:
+
+   spinCount += 1
+
+   drain()
+
+   refill()
+
+   if spinCount == 3:
+
+       loadDetergent("1 cup", "Surf")
+
+       setTimer = 15 minutes
+
+   elif spinCount == 6:
+
+       loadFabCon( "1 cap", "Charm")
+
+       loadFabSoft("1 cap", "Downy")
+
+       setTimer = 12 minutes
+
+   else:
+
+       setTimer = 10 minutes
+
+drain()
+
+hangClothes()
+
+ 
+
+STOP
